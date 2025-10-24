@@ -1,0 +1,125 @@
+
+nav{
+    display:flex;
+    justify-content: space-between; /* Adds space between the two divs in the nav bar */
+}
+
+form{
+    display:flex;
+    flex-direction: column; 
+    width: 100%; /* Makes form span 100% of the element that it is contained in */
+}
+
+/* Search input */
+.rounded-input--search{
+  border-radius: 20px; /* Curves edges*/
+  padding: 10px; /* Adds space between input text and border */
+  border: 1px solid gray; 
+  width: 35%; 
+  margin: 0 auto; /* Makes top/bottom margin 0 and left/right equal distance to one another */
+}
+
+/* Google Search/Feeling Lucky buttons */
+.form-buttons {
+    margin-top: 10px;
+    background-color: rgb(247 248 249); 
+    border: rgb(247 248 249) 5px solid; /* Changes border to match background */
+    height:30px; 
+    border-radius: 10px;   
+}
+
+.form-buttons:hover{
+    border:lightgrey 1px solid; /* Changes border when hovered over */
+}
+
+/* Div for Google Search/I'm Feeling Lucky buttons */
+.div-buttons--search{
+     margin-top: 20px; 
+     margin-left: auto; 
+     margin-right: auto;
+     margin-bottom: auto;
+     justify-content: space-between; 
+}
+
+/* Center items in div that contains Google logo */
+.center{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Google Logo */
+.logo{
+    width: 25%;
+    width: auto;
+}
+
+/* Footer */
+footer{
+    display:flex;
+    justify-content: space-between;
+    position: fixed; /* Makes footer's position fixed at bottom: 0, left:0 */
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(240 240 240);
+}
+
+/* Buttons located in the footer */
+.button--footer{
+    margin: auto 10px 10px 10px;
+    border: none;
+    background-color: rgb(240 240 240);
+}
+
+.button--footer:hover {
+  text-decoration: underline; 
+}
+
+/* Buttons located in the Nav */
+.button--nav{
+    margin: auto 10px 10px 10px;
+    border: none;
+    background-color: white;
+}
+
+.button--nav:hover {
+  text-decoration: underline; 
+}
+
+/* Button for Google Apps */
+.button--apps{
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    width: 50px; 
+    height: 50px;
+}
+
+.button--app:hover {
+    background-color: rgb(240 240 240);
+}
+
+/* Apps logo image */
+.app-image{
+    height:20px;
+    width: 20px;
+}
+
+/* Button for Sign In */
+.button--signin{
+    background-color: rgb(20, 97, 201);
+    color: white;
+    height:35px;
+    width:80px;
+    height: 40px;
+    border-radius: 35px;
+    border: rgb(20, 97, 201) 5px solid;
+}
+
+.button--signin:hover {
+    border: lightgrey 1px solid;
+}
+
+
